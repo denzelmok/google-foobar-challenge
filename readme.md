@@ -12,7 +12,7 @@ given a perfect binary tree with post-order traversal, find the parent of a give
 ## doomsday-fuel ##
 given a list of probability states, find the probability of the terminal states (absorbing states)
 
-## find-the-access-codes##
+## find-the-access-codes ##
 find the number of "lucky triples" in a list, a "lucky triple" is a tuple (x,y,z), where x divides y and y divides z
 
 ##bomb-baby##

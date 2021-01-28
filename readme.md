@@ -15,5 +15,5 @@ given a list of probability states, find the probability of the terminal states 
 ## find-the-access-codes ##
 find the number of "lucky triples" in a list, a "lucky triple" is a tuple (x,y,z), where x divides y and y divides z
 
-##bomb-baby##
+## bomb-baby ##
 find the number of steps/cycles to achieve two given numbers, starting from 1,1

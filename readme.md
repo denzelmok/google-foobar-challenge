@@ -1,6 +1,6 @@
 Google's foobar coding challenge, with questions requiring a solid understanding of mathematical concepts and computer science algorithms. The early levels could be solved by beginner/novice coders, with levels 3+ requiring an intermediate or strong understanding.
 
-minion-labor-shifts: the question requires the filtering of recurring numbers (shifts) above the specified number
+##minion-labor-shifts<h2>: the question requires the filtering of recurring numbers (shifts) above the specified number
 
 gearing-up-for-destruction: given a list of gears and their distance between each other, you are required to find the size of the gears
 

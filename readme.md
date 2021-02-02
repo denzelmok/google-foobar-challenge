@@ -1,5 +1,7 @@
 Google's foobar coding challenge, with questions requiring a solid understanding of mathematical concepts and computer science algorithms. The early levels could be solved by beginner/novice coders, with levels 3+ requiring an intermediate or strong understanding.
 
+Really fun challenge that pushes you to learn new concepts and structures. I did have a hard time with computer science concepts, but google is always there to learn something new.
+
 ## minion-labor-shifts ##
 the question requires the filtering of recurring numbers (shifts) above the specified number
 

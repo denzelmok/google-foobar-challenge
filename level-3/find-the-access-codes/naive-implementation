@@ -1,0 +1,33 @@
+def solution(l):
+    # Your code here
+    count = 0
+    
+    if len(l) < 3:
+        return 0
+    i , j, k = 0, 0, 0
+    # start loop for every number except last 2
+    for idx, each in enumerate(l[:-2]):
+        if each != 0:
+            luck = []
+            luck.append(each)
+            # loop through numbers after for 2nd number, except last 1
+            for idx1, second in enumerate(l[idx+1:-1]):
+                # loop through list, if second number divisible, append to list
+                if second % luck[0] == 0 and len(luck) == 1:
+                    luck.append(second)
+                # based on second, find third
+                if len(luck) == 2:
+                    for third in l[idx+idx1+2:]:
+                        if third % luck[0] == 0 and third % luck[1] == 0:
+                            count += 1
+                    # remove old second
+                    luck.pop(1)
+    
+    # if count is not 0, return count
+    if count != 0:
+        return(count)
+    return 0
+
+# works pretty well
+# fails final test case, couldn't work out reason, perhaps due to TLE?
+# the difference in running time from python 2.7 to 3 is pretty big
